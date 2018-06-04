@@ -1,5 +1,6 @@
 # EthereumKit
 [![Build Status](https://travis-ci.org/OnerootProject/EthereumKit.svg?branch=master)](https://travis-ci.org/OnerootProject/EthereumKit)
+[![codecov](https://codecov.io/gh/OnerootProject/EthereumKit/branch/master/graph/badge.svg)](https://codecov.io/gh/OnerootProject/EthereumKit)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 Rebuild application program interface based on [BitcoinKit](https://github.com/kishikawakatsumi/BitcoinKit).
