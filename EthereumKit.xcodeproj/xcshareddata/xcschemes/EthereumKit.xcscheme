@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C361D59220C5751000C0AEDE"
+               BuildableName = "EthereumKitTests.xctest"
+               BlueprintName = "EthereumKitTests"
+               ReferencedContainer = "container:EthereumKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C39E3D4120C129F60004056E"
+            BuildableName = "EthereumKit.framework"
+            BlueprintName = "EthereumKit"
+            ReferencedContainer = "container:EthereumKit.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
