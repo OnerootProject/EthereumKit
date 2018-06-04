@@ -18,7 +18,6 @@
 		C361D56620C51FBE00C0AEDE /* VarInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C361D56420C51FBE00C0AEDE /* VarInt.swift */; };
 		C361D56820C5218700C0AEDE /* HDPublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C361D56720C5218700C0AEDE /* HDPublicKey.swift */; };
 		C361D56B20C521A800C0AEDE /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C361D56920C521A800C0AEDE /* PublicKey.swift */; };
-		C361D56C20C521A800C0AEDE /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C361D56A20C521A800C0AEDE /* PrivateKey.swift */; };
 		C361D56E20C521F500C0AEDE /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C361D56D20C521F500C0AEDE /* Helpers.swift */; };
 		C361D57620C5224E00C0AEDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C361D57520C5224E00C0AEDE /* AppDelegate.swift */; };
 		C361D57820C5224E00C0AEDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C361D57720C5224E00C0AEDE /* ViewController.swift */; };
@@ -30,6 +29,7 @@
 		C361D58A20C52C6500C0AEDE /* HDKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C361D58920C52C6500C0AEDE /* HDKeychain.swift */; };
 		C361D59620C5751000C0AEDE /* EthereumKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C361D59520C5751000C0AEDE /* EthereumKitTests.swift */; };
 		C361D59820C5751000C0AEDE /* EthereumKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39E3D4220C129F60004056E /* EthereumKit.framework */; };
+		C361D59F20C5838300C0AEDE /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C361D59E20C5838300C0AEDE /* PrivateKey.swift */; };
 		C39E3D4720C129F60004056E /* EthereumKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C39E3D4520C129F60004056E /* EthereumKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -56,7 +56,6 @@
 		C361D56420C51FBE00C0AEDE /* VarInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VarInt.swift; sourceTree = "<group>"; };
 		C361D56720C5218700C0AEDE /* HDPublicKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDPublicKey.swift; sourceTree = "<group>"; };
 		C361D56920C521A800C0AEDE /* PublicKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicKey.swift; sourceTree = "<group>"; };
-		C361D56A20C521A800C0AEDE /* PrivateKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrivateKey.swift; path = ../../BitcoinKit/BitcoinKit/PrivateKey.swift; sourceTree = "<group>"; };
 		C361D56D20C521F500C0AEDE /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		C361D57320C5224E00C0AEDE /* EthereumExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EthereumExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C361D57520C5224E00C0AEDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +70,7 @@
 		C361D59320C5751000C0AEDE /* EthereumKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EthereumKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C361D59520C5751000C0AEDE /* EthereumKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthereumKitTests.swift; sourceTree = "<group>"; };
 		C361D59720C5751000C0AEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C361D59E20C5838300C0AEDE /* PrivateKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateKey.swift; sourceTree = "<group>"; };
 		C39E3D4220C129F60004056E /* EthereumKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EthereumKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39E3D4520C129F60004056E /* EthereumKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EthereumKit.h; sourceTree = "<group>"; };
 		C39E3D4620C129F60004056E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -150,8 +150,8 @@
 				C361D55D20C51DBC00C0AEDE /* Crypto.swift */,
 				C361D58520C5236B00C0AEDE /* Mnemonic.swift */,
 				C361D58620C5236B00C0AEDE /* WordList.swift */,
-				C361D56A20C521A800C0AEDE /* PrivateKey.swift */,
 				C361D56920C521A800C0AEDE /* PublicKey.swift */,
+				C361D59E20C5838300C0AEDE /* PrivateKey.swift */,
 				C361D58920C52C6500C0AEDE /* HDKeychain.swift */,
 				C361D55320C5077000C0AEDE /* HDPrivateKey.swift */,
 				C361D56720C5218700C0AEDE /* HDPublicKey.swift */,
@@ -361,8 +361,8 @@
 				C361D56E20C521F500C0AEDE /* Helpers.swift in Sources */,
 				C361D58720C5236B00C0AEDE /* Mnemonic.swift in Sources */,
 				C361D56B20C521A800C0AEDE /* PublicKey.swift in Sources */,
-				C361D56C20C521A800C0AEDE /* PrivateKey.swift in Sources */,
 				C361D58820C5236B00C0AEDE /* WordList.swift in Sources */,
+				C361D59F20C5838300C0AEDE /* PrivateKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
