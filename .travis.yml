@@ -15,7 +15,7 @@ env:
   - LC_ALL=en_US.UTF-8
   - PROJECT=EthereumKit.xcodeproj
   - SCHEME=EthereumKit
-  - DESTINATION='name=iPhone 7,OS=11.4'
+  - DESTINATION='name=iPhone 7,OS=11.2'
 branches:
   only:
   - master
