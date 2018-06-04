@@ -6,10 +6,6 @@ cache:
 script:
 - xcodebuild -project "$PROJECT" -scheme "$SCHEME" -configuration "$CONFIGURATION"
   -sdk "$SDK" -destination "$DESTINATION" -derivedDataPath build
-  -enableCodeCoverage YES ENABLE_TESTABILITY=YES "$ACTION"
-after_success:
-- ruby scripts/coverage.rb "$SCHEME"
-- bash <(curl -s https://codecov.io/bash) -f 'coverage.txt'
 env:
   matrix:
   - SDK=iphonesimulator CONFIGURATION=Debug ACTION=test
