@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
                     DESC
   spec.homepage = 'https://github.com/OnerootProject/EthereumKit'
   spec.license = { :type => 'Apache 2.0', :file => 'LICENSE' }
-  spec.author = { 'Liu Pengpeng' => 'i@liupengpeng.com }
+  spec.author = { 'Liu Pengpeng' => 'i@liupengpeng.com' }
   spec.social_media_url = 'https://twitter.com/pengpengliu'
 
   spec.requires_arc = true
