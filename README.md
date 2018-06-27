@@ -38,6 +38,8 @@ let privateKey = try! keychain.derivedKey(path: "m/44'/60'/0'/0/0")
 
 ## Installation
 
+### Carthage
+
 [Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
 
 You can install Carthage with [Homebrew](http://brew.sh/) using the following command:
@@ -54,3 +56,13 @@ github "OnerootProject/EthereumKit"
 ```
 
 Run `carthage update` to build the framework and drag the built `EthereumKit.framework` into your Xcode project.
+
+### CocoaPods
+
+EthereumKit is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following lines to your Podfile:
+
+```ruby
+use_frameworks!
+pod 'EthereumKit'
+```
