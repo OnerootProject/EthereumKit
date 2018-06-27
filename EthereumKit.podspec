@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'EthereumKit'
-  spec.version = '0.1.1'
+  spec.version = '0.1.2'
   spec.summary = 'Ethereum protocol toolkit for Swift'
   spec.description = <<-DESC
                        EthereumKit implements Ethereum protocol in Swift. It is an implementation of the Ethereum SPV protocol written (almost) entirely in swift.
